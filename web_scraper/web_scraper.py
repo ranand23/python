@@ -36,4 +36,3 @@ if response.status_code == 200:
     print(content)
 else:
     print("Failed to retrieve the webpage. Status code:", response.status_code)
-
